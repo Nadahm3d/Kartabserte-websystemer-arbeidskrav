@@ -49,6 +49,6 @@ export function Application() {
     map.setTarget(mapRef.current!);
   }, []);
 
-  // This is the location (in React) where we want the map to be displayed
+  // This is the location (in React) where we want the map to be displayed HeiHei
   return <div ref={mapRef}></div>;
 }
